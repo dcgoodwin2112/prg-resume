@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #F9FAFB;
+  background-color: #f9fafbeb;
 }
 
 .header {
@@ -17,19 +17,52 @@
   overflow: hidden;
   border-radius: 16px;
   background-color: #fff;
+  border: 1px solid #999;
   -webkit-box-shadow: 0 10px 6px -6px #777;
   -moz-box-shadow: 0 10px 6px -6px #777;
   box-shadow: 0 10px 6px -6px #777;
 }
 
-.header h1 {
-  color: #111827;
+.header-top {
+  composes: header;
 }
 
-.contactInfo {
+.header-scroll {
+  composes: header;
+  position: sticky;
+  height: 403px;
+  top: -303px;
+  align-items: flex-end;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  max-width: unset;
+}
+
+.header h1 {
+  font-weight: 700;
+  color: #1E3A8A;
+}
+
+.contact-info {
   margin: auto;
   text-align: left;
   font-size: 1.33rem;
+}
+
+.contact-info-top {
+  composes: contact-info;
+}
+
+.contact-info-scroll {
+  composes: contact-info;
+  font-size: .85rem;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  align-self: flex-end;
+  border-bottom: 1px solid #999;
 }
 
 .main {
@@ -46,7 +79,7 @@
   grid-column-start: 1;
   grid-column-end: 3;
   font-size: 1.8rem;
-  color: #111827;
+  color: #1E3A8A;
   margin-block-start: 2.33rem;
   margin-block-end: 0.5rem;
 }
@@ -54,23 +87,50 @@
 .sectionContent {
   grid-column-start: 2;
   grid-column-end: 3;
-  font-size: 1.05rem;
-  line-height: 1.4rem;
-  color: #1F2937;
+  font-size: 1.15rem;
+  line-height: 1.88rem;
+  color: #111827;
 }
 
 .sectionContent h3 {
   margin-block-start: 2.33rem;
   margin-block-end: 0.33rem;
+  font-size: 1.3rem;
+  line-height: 1.67rem;
+  letter-spacing: .18rem;
+  color: #374151;
 }
 
 .sectionContent ol {
   padding-left: 1rem;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+.siteFooter {
+  width: 100%;
+  max-width: 960px;
+  text-align: center;
+  font-size: 1.15rem;
+  padding-block: 20px;
+}
+
+@media (min-width: 669px) and (max-width: 868px) {
+  .header h1 {
+    font-size: 1.33rem;
+  }
+
+  .contact-info-top {
+    font-size: 1rem;
+    padding-inline: 10px;
+  }
+}
+
+@media (max-width: 668px) {
+  .header h1 {
+    font-size: 1.33rem;
+  }
+
+  .contact-info-top {
+    font-size: 1rem;
+    padding-inline: 10px;
   }
 }
