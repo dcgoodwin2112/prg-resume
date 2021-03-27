@@ -55,7 +55,7 @@ export function Header({ scrollPos }) {
   return (
     <header className={styles[`header-${scrollPos}`]}>
       {scrollPos == "top" && (
-        <Image src="/prairie-rose.jpeg" width="262px" height="400px" />
+        <Image src="/prairie-rose-cropped.jpg" width="262px" height="400px" />
       )}
 
       <div className={styles[`contact-info-${scrollPos}`]}>
