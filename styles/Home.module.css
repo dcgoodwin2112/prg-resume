@@ -41,8 +41,12 @@
 }
 
 .header h1 {
-  font-weight: 700;
+  font-weight: 500;
   color: #1e3a8a;
+}
+
+.header-scroll h1 {
+  font-size: 1.33rem;
 }
 
 .contact-info {
