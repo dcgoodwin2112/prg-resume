@@ -5,6 +5,7 @@ import styles from "../styles/Home.module.css";
 import { getContent } from "../lib/api";
 
 export default function Home({
+  certifications,
   education,
   experience,
   publications,
@@ -36,6 +37,7 @@ export default function Home({
         <div className={styles.grid}>
           <Section {...education} />
           <Section {...experience} />
+          <Section {...certifications} />
           <Section {...publications} />
           <Section {...invitedTalks} />
           <Section {...funding} />
@@ -58,8 +60,19 @@ export function Header({ scrollPos }) {
 
       <div className={styles[`contact-info-${scrollPos}`]}>
         <h1>Dr. Prairie Rose Goodwin</h1>
-        <p>Sr. Product Developer and Computer Science Professor</p>
-        {scrollPos == "top" && <p>Apex, NC</p>}
+        <p className={styles[`job-title-${scrollPos}`]}>
+          Sr. Product Developer and Computer Science Professor
+        </p>
+        {scrollPos == "top" && (
+          <>
+            <p className={styles.location}>Apex, NC</p>
+            <p>
+              <a href="https://www.linkedin.com/in/prairie-rose-goodwin-2589b648" target="_blank">
+                LinkedIn
+              </a>
+            </p>
+          </>
+        )}
       </div>
     </header>
   );
@@ -78,6 +91,7 @@ export function Section({ data: { title }, html }) {
 }
 
 export async function getStaticProps() {
+  const certifications = await getContent("certifications");
   const education = await getContent("education");
   const experience = await getContent("experience");
   const publications = await getContent("publications");
@@ -86,6 +100,7 @@ export async function getStaticProps() {
 
   return {
     props: {
+      certifications,
       education,
       experience,
       publications,

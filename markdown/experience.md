@@ -8,7 +8,7 @@ Taught senior-level Operating Systems course required for graduation.  Course co
 
 ### SENIOR PRODUCT DEVELOPER IN INTERNET-OF-THINGS | SAS INSTITUTE | JAN 2018 - PRESENT
 
-Created models with Machine Learning algorithms for streaming data applications using SAS’s Event Stream Processing (ESP) platform for IoT.  Fluent in cloud enabled technologies including docker, Kubernetes, Azure, Node, React, etc.  Applications were largely paid Proof-of-Concept projects and not publishable.  The subject areas of my work and the publications I could submit are listed below:
+Created models with Machine Learning algorithms for streaming data applications using [SAS’s Event Stream Processing](https://www.sas.com/en_us/software/event-stream-processing.html) (ESP) platform for IoT.  Fluent in cloud enabled technologies including Docker, Kubernetes, Azure, Node, React, etc.  Applications were largely paid Proof-of-Concept projects and not publishable.  The subject areas of my work and the publications I could submit are listed below:
 
 * Location Analytics:
   * Created models for conference and retail spaces with intelligent user profiles based on location tracking via smartphones.  [Published Book Chapter, see Publications 1]

@@ -42,7 +42,7 @@
 
 .header h1 {
   font-weight: 700;
-  color: #1E3A8A;
+  color: #1e3a8a;
 }
 
 .contact-info {
@@ -57,7 +57,7 @@
 
 .contact-info-scroll {
   composes: contact-info;
-  font-size: .85rem;
+  font-size: 0.85rem;
   margin: 0 auto;
   width: 100%;
   text-align: center;
@@ -79,7 +79,7 @@
   grid-column-start: 1;
   grid-column-end: 3;
   font-size: 1.8rem;
-  color: #1E3A8A;
+  color: #1e3a8a;
   margin-block-start: 2.33rem;
   margin-block-end: 0.5rem;
 }
@@ -97,7 +97,7 @@
   margin-block-end: 0.33rem;
   font-size: 1.3rem;
   line-height: 1.67rem;
-  letter-spacing: .18rem;
+  letter-spacing: 0.18rem;
   color: #374151;
 }
 
@@ -113,9 +113,33 @@
   padding-block: 20px;
 }
 
+.job-title-top {
+  font-size: 1.6rem;
+}
+
+.job-title-scroll {
+  font-size: 1rem;
+}
+
+.location {
+  color: #374151;
+}
+
 @media (min-width: 669px) and (max-width: 868px) {
   .header h1 {
+    font-size: 2rem;
+  }
+
+  .header-scroll h1 {
     font-size: 1.33rem;
+  }
+
+  .job-title-top {
+    font-size: 1.33rem;
+  }
+
+  .job-title-scroll {
+    font-size: 1rem;
   }
 
   .contact-info-top {
@@ -127,6 +151,15 @@
 @media (max-width: 668px) {
   .header h1 {
     font-size: 1.33rem;
+  }
+
+  .job-title {
+    font-size: 1rem;
+  }
+
+  .job-title-top,
+  .job-title-scroll {
+    composes: job-title;
   }
 
   .contact-info-top {
