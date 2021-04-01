@@ -1,5 +1,1 @@
----
-title: Professional Certifications
----
-### Microsoft Certified Azure IoT Developer (AZ-220) | Mar 2021
-### SAS Event Stream Processing | Feb 2018
+

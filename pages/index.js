@@ -36,8 +36,8 @@ export default function Home({
       <main className={styles.main}>
         <div className={styles.grid}>
           <Section {...education} />
-          <Section {...experience} />
           <Section {...certifications} />
+          <Section {...experience} />
           <Section {...publications} />
           <Section {...invitedTalks} />
           <Section {...funding} />
