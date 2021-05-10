@@ -16,14 +16,19 @@ export default function Home({
   const [scrollPos, setScrollPos] = useState("top");
 
   useEffect(() => {
-    document.addEventListener("scroll", (e) => {
+    const handleScroll = (e) => {
       const scroll = window.scrollY;
       if (scroll < scrollBreakpoint && scrollPos !== "top") {
         setScrollPos("top");
       } else if (scroll >= scrollBreakpoint && scrollPos !== "scroll") {
         setScrollPos("scroll");
       }
-    });
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return function cleanup() {
+      window.removeEventListener("scroll", handleScroll);
+    }
   }, [scrollPos]);
 
   return (
@@ -67,7 +72,10 @@ export function Header({ scrollPos }) {
           <>
             <p className={styles.location}>Apex, NC</p>
             <p>
-              <a href="https://www.linkedin.com/in/prairie-rose-goodwin-2589b648" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/prairie-rose-goodwin-2589b648"
+                target="_blank"
+              >
                 LinkedIn
               </a>
             </p>

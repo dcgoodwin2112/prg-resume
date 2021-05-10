@@ -2,10 +2,6 @@
 title: "Employment Experience"
 ---
 
-### ADJUNCT PROFESSOR | VASSAR COLLEGE | JAN 2021 – PRESENT
-
-Taught senior-level Operating Systems course required for graduation.  Course covered the main areas of current and legacy techniques that underpin modern systems.  Topics are organized into three sections: Virtualization, Concurrency, and Persistence.  Homeworks included a combination of written logical answers, algorithm traces, python utilities, and C-based programming development.  Students were also introduced to technologies useful to post-college careers such as GitHub.
-
 ### SENIOR PRODUCT DEVELOPER IN INTERNET-OF-THINGS | SAS INSTITUTE | JAN 2018 - PRESENT
 
 Created models with Machine Learning algorithms for streaming data applications using [SAS’s Event Stream Processing](https://www.sas.com/en_us/software/event-stream-processing.html) (ESP) platform for IoT.  Fluent in cloud enabled technologies including Docker, Kubernetes, Azure, Node, React, etc.  Applications were largely paid Proof-of-Concept projects and not publishable.  The subject areas of my work and the publications I could submit are listed below:
