@@ -66,7 +66,7 @@ export function Header({ scrollPos }) {
       <div className={styles[`contact-info-${scrollPos}`]}>
         <h1>Dr. Prairie Rose Goodwin</h1>
         <p className={styles[`job-title-${scrollPos}`]}>
-          Sr. Product Developer and Computer Science Professor
+          Senior Product Developer in IoT and Web Technologies 
         </p>
         {scrollPos == "top" && (
           <>
