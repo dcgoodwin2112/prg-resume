@@ -13,7 +13,7 @@ title: "Employment Experience"
 -	Successfully conducted projects in multiple IoT Verticals including Building Energy Management, Agricultural Monitoring, and Location Analytics.
 -	Published book chapter on Location Analytics and Variable Data Quality at SGF in 2020, journal article on building management with VR/AR at IIC in 2019.
 
-### Adjunct Professor (Operating Systems) | Vassar College | JAN 2021 - JUN 2021
+### ADJUNCT PROFESSOR (OPERATING SYSTEMS) | VASSAR COLLEGE | JAN 2021 - JUN 2021
 -	Stepped in as remote professor last minute to teach senior-level Operating Systems course required for graduation.
 -	Ran virtual meetings with 25+ attendees effectively.
 -	Created engaging course materials that retained excellent concurrent attendance for 9am class with recordings made available for on-demand learning.
