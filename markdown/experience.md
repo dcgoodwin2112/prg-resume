@@ -4,43 +4,61 @@ title: "Employment Experience"
 
 ### SENIOR PRODUCT DEVELOPER IN INTERNET-OF-THINGS | SAS INSTITUTE | JAN 2018 - PRESENT
 
-Created models with Machine Learning algorithms for streaming data applications using [SAS’s Event Stream Processing](https://www.sas.com/en_us/software/event-stream-processing.html) (ESP) platform for IoT.  Fluent in cloud enabled technologies including Docker, Kubernetes, Azure, Node, React, etc.  Applications were largely paid Proof-of-Concept projects and not publishable.  The subject areas of my work and the publications I could submit are listed below:
+-	Lead developer on multiple projects, responsible for keeping deliverables on-time and within budget to meet strategic business objectives.
+-	Collaborated with external partners to integrate SAS Streaming Analytics with other systems.
+-	Lead, designed, architected, and developed internal utility for standardizing workflows from disparate networks. Worked closely with stakeholders across company divisions to determine product requirements.
+-	Analyzed healthcare data from UNC medical study on effects of ozone on asthmatics.
+-	Created models with Machine Learning algorithms for streaming data applications using SAS's Event Stream Processing (ESP) platform for IoT.
+-	Assessed external IP and made purchasing recommendations, saving the company millions of dollars in unnecessary company acquisitions.
+-	Successfully conducted projects in multiple IoT Verticals including Building Energy Management, Agricultural Monitoring, and Location Analytics.
+-	Published book chapter on Location Analytics and Variable Data Quality at SGF in 2020, journal article on building management with VR/AR at IIC in 2019.
 
-* Location Analytics:
-  * Created models for conference and retail spaces with intelligent user profiles based on location tracking via smartphones.  [Published Book Chapter, see Publications 1]
-  * Social Distancing and contact tracing with Bluetooth enabled badges in office space.
-* Digital Twins for visualizing results of AI algorithms in complex systems, especially for building management, towards AR and VR Interfaces.  [Published Paper in IIC Journal, see Publication 2]
-* Building Energy Management: Created and applied models to HVAC energy usage to do predictive maintenance, detect anomalies, and run systems more efficiently.
-* Healthcare: Identifying physical responses to ozone exposure in healthy individuals via wearables.
-* Beehive Monitoring: tracking the health of bees with sensor-connected hives.
-
-Create usable frontend applications for data management in IoT
-
-* Launched internal product called SAS Smart Subscriber that creates a wizard-like workflow for setting up connection information to disparate networks and standardizes metadata into a single system format.  Data could then be loaded into our Analytics for IoT Suite for further analysis.  Product reduced the number of user errors and setup time, streamlined data load between products.
+### Adjunct Professor (Operating Systems) | Vassar College | JAN 2021 - JUN 2021
+-	Stepped in as remote professor last minute to teach senior-level Operating Systems course required for graduation.
+-	Ran virtual meetings with 25+ attendees effectively.
+-	Created engaging course materials that retained excellent concurrent attendance for 9am class with recordings made available for on-demand learning.
+-	Class introduced to technologies useful to post-college careers such as GitHub.
+-	Identified at-risk students to mitigate problems associated with pandemic and remote-learning.
 
 ### RESEARCH ASSISTANT | NORTH CAROLINA STATE UNIVERSITY | JUN 2014 – DEC 2017
-
-Designed and executed user study from exploration through user study.  Results verified a cognitive model of user behavior in touchscreen environments, especially related to error recovery and user focus-of-attention.  Funded by EAGER: Cognitive modeling of strategies for dealing with errors in mobile touch interfaces. National Science Foundation Award #1451172. [Published Dissertation, Journal Article, Open-Source Contribution, 2 papers, see Publications 3-7]
+-	Developed and Validated Cognitive Models of user behavior in HCI using open-source frameworks such as Cogulator and ACT-R.
+-	Worked with principal investigators to coordinate quantitative research into areas of interface development which often consists of qualitative data.
+-	Designed, implemented, and executed multiple user studies in line with IRB requirements.
+-	Lead research group as Senior Researcher, mentored junior PhD students, managed 3 masters’ students, and organized research activities for publication.
+-	Published one journal article, two conference papers, one open-source contribution, and dissertation.
 
 ### ADJUNCT PROFESSOR | ART INSTITUTE OF RALEIGH-DURHAM | JUN 2014-SEP 2015
-
-Designed the curriculum and taught multiple sections of two classes: “Introduction to Webpage Scripting/Design” that introduced on the fundamentals of HTML and CSS, and “Programming for the Artist” that introduced The Unity Game Engine and the C# language. Classes revolved around project-based activities that built on each other week after week.  The final project was a portfolio project that could be shown publicly in job interviews, etc.
+-	Honed ability to present material to audiences with wide variety of technical backgrounds.
+-	Created all course materials and taught multiple sections of two courses, "Webpage Scripting and Design" and "Intro to Unity Game Engine".
+-	Evaluated and revised lesson plans and course content to achieve student-centered learning.
+-	Utilized various methods, including exams, quizzes and assignments to assess student comprehension and monitored student performance regularly to ensure student success.
+- Final project was a portfolio project that could be shown publicly in job interviews, etc.
 
 ### TEACHERS ASSISTANT | NORTH CAROLINA STATE UNIVERSITY | SEP 2013- JUN 2014
 
-TA for undergraduate and graduate sections of Human-Computer Interaction. Guest-lectured, proctored exams, held office hours for students, and graded assignments and tests.
+-	Supported professor with graduate and undergraduate sections of Human-Computer Interaction with over 80 students in section. 
+-	Held office hours, graded, and filled in for professor for lectures.
 
 ### GRADUATE DEVELOPER INTERN | EPOCRATES | JUN 2013 – SEP 2013
 
-Worked with interface designers, the QA team, and senior developers to make meaningful contributions to the Epocrates iOS interface that were released to users, including 50% of all doctors in the US.
+-	Worked with interface designers, QA team, and senior developers to make meaningful contributions.
+-	Increased number of automated tests by 20%.
+-	Documented and fixed bugs that were pushed to production.
 
 ### PROTOTYPE ENGINEER | APPTIVITI | JUN 2012 – DEC 2013
 
-Designed and implemented a tablet-based bill-splitting application for flagship product (Startup).
-UNDERGRADUATE RESEARCH FELLOW | VASSAR COLLEGE  | JUN 2009 – MAY 2012
+-	Coordinated with C-level executives to deliver full stack application for tablets.
+-	Responsible for making all technology stack decisions for flagship product.
+-	Monitored project progress, ensuring conformance to design specifications and requirements.
 
-Worked with Dr. Marc Smith and Dr. Barry Jones in the Computer Science Department on research projects spanning subjects from mathematical music theory to bioinformatics.
+### UNDERGRADUATE RESEARCH FELLOW | VASSAR COLLEGE  | JUN 2009 – MAY 2012
+
+-	Compiled data in reports and other documents using modern tools to ensure research integrity.
+-	Developed unique research into mathematical interference in syncopation.
+-	Implemented MapReduce using early Cuda environments on NVIDIA GPU to find phylogenetic convergence (Evolutionary Bioinformatics).
 
 ### ACADEMIC INTERN | VASSAR COLLEGE  | JUN 2009 – MAY 2012
 
-Leadership role managing other undergraduate TA’s.  Assisted professors in administering lab courses and covered lectures.  Created tutoring schedules for upperclassmen to ensure coverage for introductory students.
+-	Leadership role managing 12 other undergraduate TA's.
+-	Assisted professors in administering lab courses and lectures.
+-	Created tutoring schedules for upperclassman to ensure coverage for introductory students.
