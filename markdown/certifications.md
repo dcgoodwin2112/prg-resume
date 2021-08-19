@@ -1,6 +1,9 @@
 ---
 title: Professional Certifications
 ---
+
+### Microsoft Certified Azure Data Fundamentals (DP-900) | August 2021
+
 ### Microsoft Certified Azure AI Fundamentals (AI-900) | May 2021
 
 ### Microsoft Certified Azure IoT Developer (AZ-220) | Mar 2021
